@@ -4,4 +4,4 @@ dist
 dist-ssr
 *.local
 design
-images
+public
