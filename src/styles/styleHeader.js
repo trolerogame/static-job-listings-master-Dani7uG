@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import bgHeaderDesktop from '../../images/bg-header-desktop.svg'
-import bgHeaderMobile from '../../images/bg-header-mobile.svg'
+import bgHeaderDesktop from '../../public/bg-header-desktop.svg'
+import bgHeaderMobile from '../../public/bg-header-mobile.svg'
 export const Header = styled.div`
     box-sizing: border-box;
     height:120px;
