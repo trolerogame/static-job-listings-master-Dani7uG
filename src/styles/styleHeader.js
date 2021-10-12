@@ -22,7 +22,8 @@ export const FilterStyle = styled.div`
     flex-direction:row;
     justify-content:space-between;
     align-items:center;
-
+    overflow-y: auto;
+    height: 100px;
     width: 90%;
     border-radius: 5px;
     background:#fefefe;
@@ -48,7 +49,7 @@ export const Clear = styled.button`
     font-size:15px;
     background:none;
     color:hsl(180, 8%, 52%);
-    padding:20px;
+    padding:20px 20px 20px 0px;
     cursor:pointer;
     transition:all .1s linear;
     &:hover{
